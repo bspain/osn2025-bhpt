@@ -1,3 +1,19 @@
+OK good morning welcome to my talk on building high performing engineering teams we'll go ahead and get started here
+
+[ Slide - Biography ]
+
+First here's a biography slide you can see a little bit about myself my name is Benjamin Spain.  I have been in the field of software engineering for 25 years now you can see up there a couple of the different companies that I've worked at.
+
+I have been an Engineering Manager of seven different engineering teams.  In that time some of those teams were brand new and I had to build them up from scratch, some teams were well established with seasoned veterans. I've had to manage teams that have gone through significant reorganizational structure, which sometimes this involved some of those very difficult conversations with engineers who finding themselves needing to be managed up or managed out. 
+
+Currently I am a Principal Engineer at Thrivent corporation working in the Engineering Productivity space.  Even though I've moved back into what would be considered an individual contributor role I still actively mentor a couple of engineering within the company today.
+
+[ Slide – Dense Topic]
+
+So this topic here today this is dense.  I'll tell a little bit of story, last year I spoke here Open Source North about skills for Developers around AI usage.  For that topic, I had to do quite a bit of research.  
+
+With this talk, I wanted to pick something, not “lighter”, but something that I had a lot of experience with.  I figured that my research would be simpler to do.  However as I sat down to do prepare and research, I realized “Wow!” There is clearly more then what is reasonable to cover at a 40 minute presentation.  We could go into a talk about having difficult conversations, situational leadership, or the importance of psychological safety and trust.  Those are really important concepts.  But in this talk I'm really looking to provide 12 distinct things that I believe, Engineering Managers in particular, should be consistently drilling in to. 
+
 [ Slide – Sinek Quote ]
 
 So here's where I want to anchor our presentation or discussion here. This comes from “Leaders Eat Last” by Simon Sinek where he says “when a leader embraces their responsibility to care for people instead of caring for numbers then people will follow”.  During my growth as an Engineering Manager I read a great amount of material from Simon Sinek in particular and I'll quote some of the resources as we go through this talk here today.   But this talk is really then anchored on applying this idea of “caring for people” in the context of someone leading a highly technical profession like software engineering.
@@ -12,7 +28,7 @@ Let's start then with this nature of flow and how we apply this to the work that
 
 [ Slide – Visualize all work]
 
-The first step here is to make sure that the team is able to visualize all of the work in flight and this should really mean ALL of the work.   Regardless of if the team is operating in a style that's Agile, or Kanban, or even Waterfall, the intent here is that incoming work should be known, what’s actively being worked on should be known, and that there is a record of what has been accomplished.  
+The first step here is to make sure that the team is able to visualize all of the work in flight _and this should really mean ALL of the work_.   Regardless of if the team is operating in a style that's Agile, or Kanban, or even Waterfall, the intent here is that incoming work should be known, what’s actively being worked on should be known, and that there is a record of what has been accomplished.  
 I've worked with engineering teams who will get into deep debates over how big should something be before it's represented on a board.   I've seen some engineering teams want to blow this process out exponentially and add all sorts of columns track all manner of different states of the work that's in flight.  Your job as the manager is then to try to find what's the elegant balance that fits your team.  Make sure that no one’s work remains ‘hidden’, but avoid overly complex work tracking process.
 I've seen other teams that have been adamant that they want to eschew the idea of even having to track work to begin with.  This may feel like a way of operating that is the most-flexible, but as I will talk about next, too often this leads into too many things in flight at the same time, and often with poorly understood value propositions.
 
