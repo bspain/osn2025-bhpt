@@ -60,7 +60,7 @@ One excellent technique here is to make sure that the teams are working in ***ve
 
 Last in this category we'll talk about ***avoiding single threaded engineering*** or this idea that every feature should be worked on by an individual engineer.
 
-it's quite simple to talk about ***actually, pairs of engineers can design iterate ***and review the implementation of features much faster than individual can.   Note that you are quite likely to find engineers on your team who want to try to avoid this and would rather simply create all of the code for the feature themselves but this is an anti pattern that you should avoid.
+it's quite simple to talk about ***actually, pairs of engineers can design iterate*** and review the implementation of features much faster than individual can.   Note that you are quite likely to find engineers on your team who want to try to avoid this and would rather simply create all of the code for the feature themselves but this is an anti pattern that you should avoid.
 
 Eventually, every feature should undergo a peer-review, and if members of the team need to stop their work frequently, in order to acquire the necessary context to perform an effective review, then the perceived momentum gained by having an engineer work as an individual is quickly lost when it comes time to review.
 
@@ -72,11 +72,12 @@ Let’s move on to the topic of Feedback
 
 [ Slide – Daily Looking for Problem Signals ]
 
-In sticking with the theme of DevOps we have to talk about what happens when a ***product eventually moves into operations***. One of the behaviors that you definitely want to see on your team is that there is daily inspection of the system that is also helping to gather data necessary to assert that the service is delivering value to the customers that are using it.  If you can,  establish a way in which the members of your team have access to a ***Direct Line of feedback from the customer***.   
+In sticking with the theme of DevOps we have to talk about what happens when a ***product eventually moves into operations***. One of the behaviors that you definitely want to see on your team is that there is daily inspection of the system looking for ***unexpected errors***.  Why?  Because left unchecked these can quickly add up and overshelm the team.
 
 Just as important however is that this daily inspection of the system is also helping to gather data necessary to assert that the service is delivering value to the customers that are using it.  If you can,  establish a way in which the members of your team have access to a ***Direct Line of feedback from the customer***.   
 
-Even in cases where this is possible every team should be looking at ***something that represents an observability dashboard*** that is monitoring the health and error states of the service that they've built 
+Even in cases where this is possible every team should be looking at ***something that represents an observability dashboard*** that is monitoring the health and error states of the service that they've built.
+
 Develop a solution here that works best for your team.  I have found creating some form of an on-call rotation in which the on call person that week has a responsibility to look at all of the observability and any feedback from customers.  When they find something that indicates a problem, they have a responsibility to work on either fixing it immediately, or getting it accounted for in the backlog.
 
 [ Slide – Andon Cord]
@@ -91,11 +92,11 @@ Outside of incidents in production however, ***adopt this strategy for developme
 
 I say often that one of the greatest concepts in the agile framework is the ceremony of retrospective. I won't go into the mechanics of what a retrospective is here, as there's plenty of material that you can find.
 
-As a manager I believe he should insist that these retrospectives happen on a predictable schedule.  Predictability means that engineers on your team know that there will be a forum where impediments or ideas for improvement will be discussed.
+As a manager I believe he should insist that these ***retrospectives happen on a predictable schedule.***  Predictability means that engineers on your team know that there will be a forum where impediments or ideas for improvement will be discussed.
 
-As a manager you should make sure that this is a safe space for people on your team to deliver feedback.  Some managers I've worked with have chosen to not be in the room while the retrospective is happening and others choose to be there. I don't have a strong opinion on it either way.  What I will recommend is that you treat anything brought up within the team's retrospective as important.  Especially use your one-on-one times with engineers to discuss these topics.
+As a manager you should make sure that ***this is a safe space*** for people on your team to deliver feedback.  Some managers I've worked with have chosen to not be in the room while the retrospective is happening and others choose to be there. I don't have a strong opinion on it either way.  What I will recommend is that you treat anything brought up within the team's retrospective as important.  Especially use your one-on-one times with engineers to discuss these topics.
 
-You should be making sure that your team is using the retrospective to focus on actionable improvements that are within their team's control.  I believe you're likely to find a lot of engineers will use the retrospective to explain how they could get their job done better if some other team would deliver or change or do such and such.  This is important feedback to get from your team and you should make sure that your team knows their concerns are heard but your role should also be to challenge the team to look deeper into the tangible things that they can do to either, improve the system that they have to work with, improve the communication mechanism that they need to have with the team, or gather the data that they need to indicate how other parts of the system are impeding their abilities to make progress
+You should be making sure that your team is using the retrospective to ***focus on actionable improvements that are within their team's control***.  I believe you're likely to find a lot of engineers will use the retrospective to explain how they could get their job done better if some other team would deliver or change or do such and such.  This is important feedback to get from your team and you should make sure that your team knows their concerns are heard but your role should also be to challenge the team to look deeper into the tangible things that they can do to either, improve the system that they have to work with, improve the communication mechanism that they need to have with the team, or gather the data that they need to indicate how other parts of the system are impeding their abilities to make progress
 
 [ Slide – Performance Goals ]
 
